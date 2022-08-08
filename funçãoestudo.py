@@ -28,7 +28,6 @@ print("Amanhã terei prova")
 estudar=str(input("Devo Estudar?[S/N]"))
 if estudar=="S":
     vzs=estudo()
-    print(vzs)
     prova()
     if vzs>=4:
         print(DIADORESULTADO)

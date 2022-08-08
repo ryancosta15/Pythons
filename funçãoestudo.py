@@ -2,6 +2,7 @@
 from pydoc import doc
 from re import I, S
 def estudo():
+    C=0
     pronto=False
     while pronto!=True:
         C=C+1
@@ -15,24 +16,31 @@ def estudo():
         elif pronto=="N":
             pronto=False
 def prova():
+    print("------------")
+    print("DIA DA PROVA")
+    print("------------")
     print("Lendo a prova...")
     print("Resolvendo questões")
     print("Entregando para o professor...")
 
+DIADORESULTADO="----------------\nDIA DO RESULTADO\n----------------"
 print("Amanhã terei prova")
 estudar=str(input("Devo Estudar?[S/N]"))
 if estudar=="S":
-    estudo()
-    print(estudo)
+    vzs=estudo()
+    print(vzs)
     prova()
-    if estudo>=4:
+    if vzs>=4:
+        print(DIADORESULTADO)
         print("Fui bem na prova!")
         print("Minha nota foi 10")
-    elif estudo<4:
+    elif vzs<4:
+        print(DIADORESULTADO)
         print ("Devia ter estudado mais :(")
         print ("Minha nota foi 5")
 elif estudar=="N":
     print ("Vou dormir")
     prova()
+    print(DIADORESULTADO)
     print ("Devia ter estudado :(")
     print ("Minha nota foi 0")

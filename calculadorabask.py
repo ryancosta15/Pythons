@@ -1,3 +1,4 @@
+#finished
 import math
 a=int(input("Digite o termo com x² "))
 b=int(input("Digite o termo com x "))

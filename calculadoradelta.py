@@ -1,3 +1,4 @@
+#finished
 a=int(input("Digite o termo com x² "))
 b=int(input("Digite o termo com x "))
 c=int(input("Digite o termo independente "))

@@ -1,3 +1,4 @@
+#finished
 a11=int(input("Digite a11 "))
 a12=int(input("Digite a12 "))
 a13=int(input("Digite a13 "))

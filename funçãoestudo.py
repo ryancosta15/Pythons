@@ -26,7 +26,7 @@ def prova():
 DIADORESULTADO="----------------\nDIA DO RESULTADO\n----------------"
 print("Amanhã terei prova")
 estudar=str(input("Devo Estudar?[S/N]"))
-if estudar=="S":
+if estudar=="S"or estudar=="s":
     vzs=estudo()
     prova()
     if vzs>=4:
@@ -37,7 +37,7 @@ if estudar=="S":
         print(DIADORESULTADO)
         print ("Devia ter estudado mais :(")
         print ("Minha nota foi 5")
-elif estudar=="N":
+elif estudar=="N"or estudar=="n":
     print ("Vou dormir")
     prova()
     print(DIADORESULTADO)

@@ -9,7 +9,7 @@ def estudo():
         print (str("estudando..."))
         print ("Fiz a lista pela",C,"ª vez")
         pronto=str(input("Já estou pronto?[S/N]"))
-        if pronto=="S":
+        if pronto=="S" or pronto=="s":
             pronto=True
             print("Posso descansar")
             return C                      

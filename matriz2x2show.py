@@ -1,6 +1,3 @@
-from tkinter import N
-
-
 a11=int(input("Digite a11:"))
 a12=int(input("Digite a12:"))
 a21=int(input("Digite a21:"))
